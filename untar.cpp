@@ -3,7 +3,6 @@
 
 #include <string>
 #include <fstream>
-#include <iostream>
 namespace untar {
 using namespace std;
 class Untar

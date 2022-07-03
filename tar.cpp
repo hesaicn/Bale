@@ -4,7 +4,6 @@
 #include <string>
 #include <vector>
 #include <fstream>
-#include <iostream>
 
 namespace tar {
 using namespace std;
