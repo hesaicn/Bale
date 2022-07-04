@@ -5,7 +5,6 @@
 #include <vector>
 #include <fstream>
 
-namespace tar {
 using namespace std;
 class Tar
 {
@@ -19,5 +18,4 @@ private:
     vector<string> files_ = {};
     string path_ = {};
 };
-} // namespace tar
 #endif

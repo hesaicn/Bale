@@ -1,10 +1,10 @@
 #include "../include/tar.h"
 
-void tar::Add(const string &path)
+void Tar::Add(const string &path)
 {
     files_.push_back(path);
 }
-void tar::Save()
+void Tar::Save()
 {
     ofstream ofs(path_, ios::binary);
     ifstream ifs;
@@ -44,7 +44,7 @@ void tar::Save()
     ofs.clear();
 }
 
-tar::Tar(const string &path)
+Tar::Tar(const string &path)
 {
     path_ = path;
 }

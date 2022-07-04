@@ -3,7 +3,6 @@
 
 #include <string>
 #include <fstream>
-namespace untar {
 using namespace std;
 class Untar
 {
@@ -15,5 +14,3 @@ public:
 private:
     string file_ = {};
 };
-} // namespace untar
-#endif
