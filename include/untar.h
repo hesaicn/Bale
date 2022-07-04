@@ -14,3 +14,4 @@ public:
 private:
     string file_ = {};
 };
+#endif
