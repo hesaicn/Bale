@@ -1,6 +1,7 @@
-# now just demo
-## ./include/constants.h
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+#include <string>
 
-```cpp
 const std::string ROOT_PATH = "/home/super/WorkSpace/code/Bale/";
-```
+
+#endif

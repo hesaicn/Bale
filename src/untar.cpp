@@ -12,7 +12,7 @@ void Untar::Save() {
         ifs.read(fileName, fileNameLen);
         unsigned long long fileSize = 0;
         ifs.read((char *)&fileSize, sizeof(unsigned long long));
-        ofstream ofs(string("../output/") + fileName, ios::binary);
+        ofstream ofs(ROOT_PATH + string("output/") + fileName, ios::binary);
         static char buffer[1024 * 1024] = {0};
         while (fileSize / (1024 * 1024) > 0) {
             ifs.read(buffer, 1024 * 1024);
